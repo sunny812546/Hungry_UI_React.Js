@@ -1,0 +1,62 @@
+.hunger {
+  height: 100%;
+  width: 100%;
+}
+.hunger-top {
+  width: 100%;
+  height: 70%;
+  background-image: url("../../assets/Bg_2_1.png");
+  background-size: cover;
+}
+
+.hunger-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.img-top {
+  height: 30%;
+  object-fit: contain;
+}
+
+span {
+  margin-left: 10px;
+  display: block;
+}
+
+.text-1 {
+  font-weight: bold;
+}
+
+.text-2 {
+  font-size: 15px;
+  font-style: italic;
+}
+
+.hunger-buttom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.link {
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  width: 80%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 2px;
+  background-color: #fff;
+  border: 0.5px solid #f79837;
+  border-radius: 10px;
+}
+
+button:focus {
+  outline: none;
+}
